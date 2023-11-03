@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Travel Permit Registration Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+
+        <style>
+                    body {
+            font-family: 'Lato', sans-serif
+        }
+
+        h1 {
+            margin-bottom: 40px
+        }
+
+        label {
+            color: #333
+            margin-top : 30px;
+            margin-bottom:5px;
+        }
+
+        .btn-send {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            width: 80%;
+            margin-left: 3px
+        }
+
+        .help-block.with-errors {
+            color: #ff5050;
+            margin-top: 5px
+        }
+
+        .card {
+            margin-left: 10px;
+            margin-right: 10px
+        }
+
+        .submit-Btn{
+        margin-top:50px;
+        margin-left:100px;
+        }
+        .logo{
+        margin-top:30px;
+        margin-left:20%;
+        }
+        image{
+        margin-left:50px;
+        }
+
+        </style>
+    </head>
+    <body>
+
+    <div class="logo">
+        <div class="image">
+        <img src="https://telangana.gov.in/Style%20Library/GoT/Content/img/logo.png"/>
+        </div>
+        <h1>Telangana Travel Permit for Interstate travel</h1>
+    </div>
+    <div class="row ">
+        <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+                    <div class="container">
+
+                            <div class="controls">
+                                <form class = "row gy-2 gx-3 align-items-center form-div" method = "POST" action = "login_Page">
+                                   <div class="form-group">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" class="form-control" name = "fname"  placeholder="Enter First Name">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" class="form-control" name = "lname"  placeholder="Enter Last Name">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" name = "email"  placeholder="Enter Email">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="source_state">Source State</label>
+                                    <input type="text" class="form-control" name = "source_state"  placeholder="Enter State">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="source">Source District</label>
+                                    <input type="text" class="form-control" name = "source"  placeholder="Enter District">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="dest_state">Destination State</label>
+                                    <input type="text" class="form-control" name = "dest_state"  placeholder="Enter State">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="dest_district">Destination District</label>
+                                    <input type="text" class="form-control" name = "dest_district"  placeholder="Enter District">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control" name = "phone"  placeholder="Enter Phone">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="idcard">ID Proof</label>
+                                    <input type="text" class="form-control" name = "idcard"  placeholder="Enter ID">
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="trip">Date</label>
+                                    <input type="date" class="form-control" name = "trip"  placeholder="Enter Date">
+                                    </div>
+                                    <div class="col-md-12 submit-Btn"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Submit"> </div>
+                                </form>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
